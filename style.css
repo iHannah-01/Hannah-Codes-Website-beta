@@ -40,6 +40,8 @@ body {
 	display: flex;
 	background-color: rgb(240, 201, 225);
 	padding-left: 0.7%;
+	
+	
 }
 .imgdisplay2 {
 	
@@ -50,7 +52,7 @@ body {
 .hometext {
 	padding-left: 0.7%;
 	float: left;
-	margin-left: -97%;
+	margin-left: 97%;
 	margin-top: 10px;
 }
 .hometext2 {
@@ -63,8 +65,7 @@ body {
 	width: 450px;
 	height: 450px;
 	padding: 0.7%;
-
-	margin-left: 73%;
+	
 }
 .picrew2 {
 	width: 450px;
@@ -315,7 +316,7 @@ a {
 	flex-direction: column;
 }
 .friend-container:hover > .friend-avatar {
-	box-shadow: 0 9px 16px 0 rgba(0, 0, 0);
+	box-shadow: 0 9px 16px 0 rgb(63, 62, 62);
 }
 .friend-container:hover > .friend-name {
 	text-decoration: underline;
@@ -398,7 +399,7 @@ a {
 		height: 440px;
 		padding: 0.5%;
 
-		margin-left: 6%;
+		margin-left: 63%;
 	}
 
 	.imgpfp {
