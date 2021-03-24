@@ -178,7 +178,7 @@ a {
 	float: none;
 	text-align: right;
 	text-align: center;
-	left: 95%;
+	left: 90%;
 	top: 2%;
 
 	/* Add a red background color to navbar links on hover */
@@ -324,7 +324,7 @@ a {
 	text-decoration: underline;
 }
 .friend-name {
-	color: #fff;
+	color: black;
 	font-weight: bold;
 	font-size: 20px;
 }
