@@ -464,6 +464,11 @@ a {
 		background-color: #333;
 		box-shadow: 5px 5px 5px rgb(0, 0, 0);
 	}
+	.friend-name {
+		color: #fff;
+		font-weight: bold;
+		font-size: 20px;
+	}
 	.pfptext {
 		text-align: center;
 		color: white;
