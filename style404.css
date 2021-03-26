@@ -1,5 +1,5 @@
 body {
-	 background-image: url('404background8.jpg');
+	 background-image: url('images/404background8.jpg');
 	background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -387,7 +387,7 @@ a {
   }
   @media (prefers-color-scheme: dark) {
 	body {
-	  background-image: url('404background9.jpg');
+	  background-image: url('images/404background9.jpg');
 		
 	background-repeat: no-repeat;
   background-attachment: fixed;
