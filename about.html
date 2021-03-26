@@ -2,10 +2,7 @@
 <html lang="en">
 	<head>
 		<meta name="charset" content="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86"
-		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
@@ -14,7 +11,7 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="icon" href="images/IMG_3609.JPEG" />
 		<title>Hannah Codes Website (beta)</title>
-		<script src="javascript.js"></script>
+		<script type="text/javascript" src="javascript.js"></script>
 	</head>
 
 	<body onload="websiteloading()">
@@ -35,14 +32,12 @@
 							<div class="column">
 								<h3>Home</h3>
 								<a href="index.html">Home</a>
-								<a href="about.html">About</a>
+								<a class="active" href="about.html">About</a>
 								<a href="friends.html">friends</a>
 							</div>
 							<div class="column">
 								<h3>Dev</h3>
-								<a class="active" href="my-Projects.html"
-									>My Projects</a
-								>
+								<a href="my-Projects.html">My Projects</a>
 								<a href="https://twitter.com/hannah_codes"
 									>Dev Twitter</a
 								>
@@ -55,8 +50,8 @@
 								<a href="https://twitter.com/iHannah_01"
 									>Twitter</a
 								>
-								<a href="https://www.instagram.com/iHannah_01">
-									Instagram</a
+								<a href="https://www.instagram.com/iHannah_01"
+									>Instagram</a
 								>
 								<a
 									href="https://www.linkedin.com/in/ihannah-01/"
@@ -97,47 +92,41 @@
 			</div>
 		</div>
 		<div class="space">
-			<h1 class="pfptext">My Projects</h1>
+			<h1 class="pfptext">About Me</h1>
 		</div>
+
+		<h2 class="abouttext">
+			hi my name is Hannah, i'm 20 years old and I live in Andover.
+		</h2>
+
 		<p class="abouttext">
-			here is a showcase of all that i have been or that i am currently
-			working on
+			I am Currently studying Level 3 IT, Level 3 Creative Media and GCSE
+			maths and english at Andover college <br />
+
+			I am a young carer and I am currently employed as a bar support
+			staff at Cameo & Vinyl Andover nightclub, a Repem staff at B&M
+			Andover and as a learning technology coach at Andover College.
+			<br />
+			I am also a beginner web developer and a Youtuber
 		</p>
-		<h2 class="abouttext">my Dev website v1</h2>
-		<img
-			class="abouttext"
-			src="images/website-v1.jpeg"
-			draggable="false"
-			style="width: 1210px; height: 560px"
-		/>
-		<h2 class="abouttext">my Dev website v2</h2>
-		<img
-			class="abouttext"
-			src="images/mywebsitev3.jpeg"
-			draggable="false"
-			style="width: 1210px; height: 800px"
-		/>
-		<h2 class="abouttext">my Dev website v3 (renamed Hannah Codes)</h2>
-		<picture>
-			
-			<source class="abouttext" srcset="images/website-v3-dark.jpeg" media="(prefers-color-scheme: dark)">
-			<img src="images/website-v3-light.jpeg" 
-			style="width: 1210px; height: 2000px">
-		  </picture>
-		  <h2 class="abouttext">Hannah Codes v4 (previously my dev website)</h2>
-		  <picture>
-			
-			<source class="abouttext" srcset="images/website-v4-dark.jpeg" media="(prefers-color-scheme: dark)">
-			<img src="images/website-v4-light.jpeg" 
-			style="width: 1210px; height: 2000px">
-		  </picture>
+		<br />
+		<div class="space">
+			<h1 class="pfptext">My Hobbies</h1>
+		</div>
+
+		<p class="abouttext">
+			I am very interested in computer Technology with a particular
+			interest in video/computer games, <br />
+			photography and I also enjoy watching and making YouTube videos in
+			my spare time (which you can view about in the Youtube tab) ​
+		</p>
+
 		<footer class="footer">
 			<div class="row">
 				<div class="columnfooter">
 					<h4>Home</h4>
 					<a href="index.html">Home</a>
-					<a
-						href="https://m-beta.hannahcodes.co.uk/myprojects-mobile.html"
+					<a href="https://m-beta.hannahcodes.co.uk/about-mobile.html"
 						>Switch to mobile view (beta)</a
 					>
 					<a href=""
@@ -185,27 +174,26 @@
 					<a href="https://twitter.com/hannah_codes">Twitter</a>
 					<a href="https://github.com/iHannah-01">Github</a>
 				</div>
-
-				<br />
-				<br />
-				<br />
-				<p class="footercrtext">Copyright Hannah 2021</p>
-
-				<script>
-					function websiteloading() {
-						if (
-							/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-								navigator.userAgent
-							)
-						) {
-							// true for mobile device
-							location.href =
-								"https://m-beta.hannahcodes.co.uk/myprojects-mobile.html";
-						} else {
-						}
-					}
-				</script>
 			</div>
+			<br />
+			<br />
+			<br />
+			<p class="footercrtext">Copyright Hannah 2021</p>
 		</footer>
+
+		<script>
+			function websiteloading() {
+				if (
+					/Android|webOS|iPhone|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+						navigator.userAgent
+					)
+				) {
+					// true for mobile device
+					location.href =
+						"https://m-beta.hannahcodes.co.uk/about-mobile.html";
+				} else {
+				}
+			}
+		</script>
 	</body>
 </html>
