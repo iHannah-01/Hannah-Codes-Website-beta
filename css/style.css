@@ -135,26 +135,14 @@ a {
 
 	padding-left: 5%;
 }
-.pfpnamer3 {
-	display: inline-block;
-	text-align: center;
 
-	padding-left: 11.5%;
-}
-.pfpnamer4 {
-	display: inline-block;
-	text-align: center;
 
-	padding-left: 10%;
-}
 .pfptext {
 	text-align: center;
 	color: black;
 	top: 20;
 }
-.imgpfp:hover {
-	box-shadow: 0 10px 30px 0 #dee4e7, 0 10px 30px rgb(234, 0, 255);
-}
+
 
 /* Links inside the navbar */
 .navbar a {
@@ -326,6 +314,7 @@ a {
 }
 .friend-container:hover > .friend-name {
 	text-decoration: underline;
+	color: rgb(5, 139, 133);
 }
 .friend-name {
 	color: black;
@@ -473,6 +462,10 @@ a {
 		color: #fff;
 		font-weight: bold;
 		font-size: 20px;
+	}
+	.friend-container:hover > .friend-name {
+		text-decoration: underline;
+		color: rgb(238, 130, 202);
 	}
 	.pfptext {
 		text-align: center;
