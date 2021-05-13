@@ -31,11 +31,17 @@ body {
 	color: white;
 	font-size: 16px;
 	display: block;
-	margin-top: auto;
+	margin: 0;
+	
+}
+.header h1{
+	margin-left: 4%;
 }
 .menu_img {
 	border-radius: 50%;
 	margin-right: 9%;
+	width: auto;
+	height: auto;
 }
 .dropdown .dropbtn {
 	font-size: 16px;
@@ -49,7 +55,7 @@ body {
 	float: none;
 	text-align: right;
 	text-align: center;
-	left: 93%;
+	left: 90%;
 	top: 2%;
 }
 .dropdown-content {
@@ -57,22 +63,22 @@ body {
 	position: absolute;
 	background-color: #230c33;
 	width: 100%;
-	padding: 1px;
 	left: 0;
-	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-	z-index: 1;
+	box-shadow: 0px 40px 100px 0px rgba(0, 0, 0, 0.171);
+	 z-index: 1;
 }
 .dropdown:hover .dropdown-content {
 	display: block;
-	top: auto;
+	margin-top: -1%;
+	height: auto;
+	width: 100%;
 }
 /* Create three equal columns that floats next to each other */
 .column {
 	float: left;
-	width: 10%;
-
+	width: 12%;
+margin-top: 2%;
 	padding: 30px;
-	background-color: #230c33;
 	height: 300px;
 }
 /* Style links inside the columns */
@@ -88,6 +94,7 @@ body {
 /* Add a background color on hover */
 .column a:hover {
 	background-color: #34065a;
+	
 }
 /* Add a black background color to dropdown links on hover */
 .dropdown-content a:hover {
@@ -97,8 +104,49 @@ body {
 .menu_active {
 	background-color: #5f3e7a;
 }
+@media only screen and (max-width: 1900px) {
+	.dropdown .dropbtn {
+		font-size: 16px;
+		border: none;
+		outline: none;
+		color: white;
+		padding: 1px 1px;
+		background-color: inherit;
 
-@media only screen and (max-width: 1500px) {
+		position: absolute;
+		float: none;
+		text-align: right;
+		text-align: center;
+		left: 93%;
+		top: 2.3%;
+	}
+	.column {
+	float: center;
+	width: 12%;
+margin-top: 0;
+	padding: 30px;
+	left: 20%;
+		height: 300px; 
+		
+	}
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #230c33;
+		width: 100%;
+		left: 20;
+		top: 10;
+		box-shadow: 0px 40px 100px 0px rgba(0, 0, 0, 0.171);
+		 z-index: 1;
+	}
+	.dropdown:hover .dropdown-content {
+	display: block;
+	margin-top: -1%;
+	height: auto;
+	width: 100%;
+}
+}
+@media only screen and (min-width: 1500px) {
 	/* Dropdown button */
 	.dropdown .dropbtn {
 		font-size: 16px;
@@ -112,7 +160,7 @@ body {
 		float: none;
 		text-align: right;
 		text-align: center;
-		left: 92%;
+		left: 90%;
 		top: 2.3%;
 	}
 }
@@ -148,10 +196,9 @@ body {
 	float: none;
 	color: white;
 	padding-left: 20px;
-	text-align: center;
+	text-align: left;
 	text-decoration: none;
 	display: block;
-	text-align: left;
 }
 	/* Add a background color on hover */
 .column a:hover {
@@ -190,7 +237,11 @@ body {
 		font-size: 16px;
 		display: block;
 		margin-top: auto;
+		
 	}
+	.header h1{
+	margin-left: 4%;
+}
 }
 
 
@@ -208,10 +259,29 @@ body {
 a {
 	text-decoration: none;
 }
+/* scrollbar width */
+::-webkit-scrollbar {
+	width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(100, 0, 146); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(152, 5, 182); 
+  }
 
 @media (prefers-color-scheme: dark) {
 	.space {
-		padding: 2px;
+		padding: auto;
 		background-color: #333;
 		box-shadow: 5px 5px 5px rgb(0, 0, 0);
 	}
@@ -219,8 +289,26 @@ a {
 		text-align: center;
 		color: white;
 	}
+	/* scrollbar width */
+::-webkit-scrollbar {
+	width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+	background: rgb(0, 0, 0); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: rgb(59, 3, 85); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: rgb(67, 4, 80); 
+  }
 }
-
 
 
 
@@ -270,7 +358,7 @@ a {
 	height: 450px;
 	padding: 0.7%;
 	margin-left: 69%;
-	margin-top: -7%;
+	margin-top: -8%;
 	
 }
 .home_img_2 {
@@ -279,9 +367,19 @@ a {
 	padding: 0.7%;
 }
 .vid {
-	width: 730px;
-	height: 70vh;
+	width: 670px;
+	height: 55vh;
 padding-bottom: 2%;
+}
+@media only screen and (max-width: 1900px) {
+.home_img {
+	width: 450px;
+	height: 450px;
+	padding: 0.7%;
+	margin-left: 72%;
+	margin-top: -5%;
+	
+}
 }
 @media only screen and (max-width: 1500px) {
 	.home_img_display {
@@ -384,21 +482,41 @@ padding-bottom: 2%;
 	.home_img_display {
 		/* display: flex; */
 		background-color: rgb(72, 40, 99);
-		padding-left: 0.7%;
+		padding-left: auto;
 	}
 	.home_img_display_2 {
-		display: flex;
+		/*display: flex; */
 		background-color: rgb(56, 46, 71);
-		padding-right: 40%;
-		text-align: center;
+		padding-right: -7%;
+		padding-bottom: 2px;
 	}
 	.home_text {
-		padding-left: 0.7%;
+		padding: auto;
 		float: left;
-		margin-left: -97%;
+		margin-left: -96%;
 		margin-top: 10px;
 		color: white;
 	}
+	/*.home_text_2 h1 {
+		float: left;
+		margin-left: 20vw;
+		margin-top: 5px;
+		color: white;
+	}
+	.home_img_2{
+		width: 35%;
+		height: 35%;
+		padding-left: auto;
+		
+	   margin-top: 0%;
+		margin-left: 4%;
+	}
+	.vid {
+		width: 100%;
+		height: 50vh;
+	padding-bottom: auto;
+		margin-left: auto;
+	} */
 }
 
 
@@ -597,9 +715,19 @@ padding-bottom: 2%;
 	padding-left: 0.7%;
 	padding-bottom: 0.2%;
 }
-
-
-
+@media only screen and (max-width: 700px) {
+.mc_pic{	
+	float: left;
+	display: block;
+	width: 80%;
+	border: 6px solid #000;
+}
+	.minecraft_text {
+	padding-left: 3%;
+		padding-right: 3%;
+	padding-bottom: 0.2%;
+}
+}
 
 
 /* discordpage/discord.html */
@@ -713,7 +841,7 @@ padding-bottom: 2%;
 	.footer {
 		text-align: center;
 		background-color: #333;
-		height: 270px;
+		height: auto;
 		padding: 12px;
 		font-size: 18px;
 		bottom: 60px;
