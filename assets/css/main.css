@@ -745,11 +745,76 @@ padding-bottom: 2%;
 .discord_img {
 	padding-left: 0.9%;
 	padding-bottom: 0.2%;
+	width: 750px; 
+	height: 450px;
+}
+.discord_button {
+	background-color: #ffffff; /* Green */
+	border: none;
+	color: black;
+	padding: 10px 180px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 60px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+.discord_button:hover {
+	background-color: #34065a;
+	color: white;
+	box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.24),
+		0 10px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+@media only screen and (max-width: 700px) {
+.discord_img {
+	padding-left: 2%;
+	padding-bottom: 0.2%;
+	width: 80%;
+	height: 20%;
+}
+	.aside {
+	opacity: 0;
+}
+	.discord_button {
+	background-color: #ffffff; /* Green */
+	border: none;
+	color: black;
+	padding: 10px 160px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-left: 10px;
+		top: 20px;
+	border-radius: 2px;
+}
 }
 
-
-
-
+@media (prefers-color-scheme: dark) {
+	.discord_button {
+		background-color: #333; /* Green */
+		border: none;
+		color: white;
+		padding: 10px 160px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin-top: 60px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	}
+	.discord_button:hover {
+		background-color: #34065a;
+		color: white;
+		box-shadow: 0 9px 16px 0 rgba(0, 0, 0, 0.24),
+			0 10px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+}
 
 /* 404page/404.html */
 .page_404 {
@@ -877,7 +942,7 @@ padding-bottom: 2%;
 
 
 
-/* homepage and discordpage/index.html and discord.html buttons */
+/* homepage/index.html buttons */
 .button {
 	background-color: #ffffff; /* Green */
 	border: none;
